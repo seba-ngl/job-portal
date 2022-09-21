@@ -15,6 +15,7 @@ ul {
 ul li {
   padding: 5px 0 0;
   margin: 0 15px;
+  border-radius: 10px;
 }
 ul li:hover {
   background-color: #10b981;
@@ -53,4 +54,89 @@ ul li:hover {
 }
 .wrap-buttons {
   display: flex;
+}
+.container-hero {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 85%;
+  padding: 10px;
+}
+.hero-text {
+  width: 30%;
+  font-size: 60px;
+  font-weight: bold;
+  padding: 60px 0;
+}
+.hero-title {
+  color: #10b981;
+  padding: 10px 0;
+}
+.hero-title3 {
+  padding: 10px 0;
+}
+.search-input {
+  height: 50px;
+  width: 300px;
+  border-style: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 17px 0 0 17px;
+  background-color: transparent;
+  outline: auto;
+  color: #10b981;
+  z-index: 1;
+  text-align: center;
+}
+.search-input::placeholder {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: right;
+  padding: 0 55px;
+}
+.icon-search {
+  width: 50px;
+  height: 110px;
+  border-style: none;
+  font-size: 35px;
+  position: absolute;
+  color: #10b981;
+  background-color: transparent;
+}
+
+.search-input-location {
+  height: 50px;
+  width: 300px;
+  border-style: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 0 17px 17px 0;
+  background-color: transparent;
+  outline: auto;
+  color: #10b981;
+  z-index: 1;
+  text-align: center;
+}
+.search-input-location::placeholder {
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-left: 55px;
+}
+.whole-search-bar {
+  display: flex;
+  width: 750px;
+  align-items: flex-end;
+}
+.btn-search {
+  height: 50px;
+  width: 125px;
+  border-style: none;
+  border-radius: 17px;
+  color: #fff;
+  background-color: #10b981;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  right: 60px;
 }
